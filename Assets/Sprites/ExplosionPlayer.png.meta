@@ -20,6 +20,26 @@ TextureImporter:
     21300026: ExplosionShip_21
     21300028: ExplosionShip_22
     21300030: ExplosionShip_26
+    21300032: ExplosionShip_7
+    21300034: ExplosionShip_12
+    21300036: ExplosionShip_14
+    21300038: ExplosionShip_15
+    21300040: ExplosionPlayer_0
+    21300042: ExplosionPlayer_1
+    21300044: ExplosionPlayer_2
+    21300046: ExplosionPlayer_3
+    21300048: ExplosionPlayer_4
+    21300050: ExplosionPlayer_5
+    21300052: ExplosionPlayer_6
+    21300054: ExplosionPlayer_7
+    21300056: ExplosionPlayer_8
+    21300058: ExplosionPlayer_9
+    21300060: ExplosionPlayer_10
+    21300062: ExplosionPlayer_11
+    21300064: ExplosionPlayer_12
+    21300066: ExplosionPlayer_13
+    21300068: ExplosionPlayer_14
+    21300070: ExplosionPlayer_15
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -96,69 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ExplosionShip_0
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 201
-        width: 48
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ExplosionShip_1
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 198
-        width: 63
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ExplosionShip_2
-      rect:
-        serializedVersion: 2
-        x: 124
-        y: 196
-        width: 68
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ExplosionShip_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 196
-        width: 64
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ExplosionShip_4
+      name: ExplosionPlayer_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 132
-        width: 58
-        height: 56
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,13 +130,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_5
+      name: ExplosionPlayer_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 133
-        width: 60
-        height: 55
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,13 +144,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_6
+      name: ExplosionPlayer_2
       rect:
         serializedVersion: 2
-        x: 124
-        y: 134
-        width: 61
-        height: 53
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,13 +158,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_8
+      name: ExplosionPlayer_3
       rect:
         serializedVersion: 2
-        x: 197
-        y: 132
-        width: 49
-        height: 50
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,13 +172,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_9
+      name: ExplosionPlayer_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 71
-        width: 50
-        height: 46
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,13 +186,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_10
+      name: ExplosionPlayer_5
       rect:
         serializedVersion: 2
-        x: 71
-        y: 70
-        width: 46
-        height: 46
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,13 +200,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_11
+      name: ExplosionPlayer_6
       rect:
         serializedVersion: 2
-        x: 136
-        y: 73
-        width: 41
-        height: 42
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,13 +214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_13
+      name: ExplosionPlayer_7
       rect:
         serializedVersion: 2
-        x: 203
-        y: 77
-        width: 40
-        height: 39
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,13 +228,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_18
+      name: ExplosionPlayer_8
       rect:
         serializedVersion: 2
-        x: 11
-        y: 13
-        width: 37
-        height: 39
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,13 +242,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_21
+      name: ExplosionPlayer_9
       rect:
         serializedVersion: 2
-        x: 88
-        y: 24
-        width: 20
-        height: 25
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,13 +256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_22
+      name: ExplosionPlayer_10
       rect:
         serializedVersion: 2
-        x: 154
-        y: 25
-        width: 18
-        height: 18
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,13 +270,69 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ExplosionShip_26
+      name: ExplosionPlayer_11
       rect:
         serializedVersion: 2
-        x: 215
-        y: 31
-        width: 10
-        height: 11
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ExplosionPlayer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ExplosionPlayer_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ExplosionPlayer_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ExplosionPlayer_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

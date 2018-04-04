@@ -4,9 +4,11 @@ using UnityEngine;
 // USING STATEMENTS
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class GameController : MonoBehaviour {
 
+    [Header("Hazard Options")]
     public GameObject[] hazard; // What are we spawning?
     public Vector2 spawnValue; // Where do we spawn our hazards?
     public int hazardCount; // How many hazards per wave?
@@ -14,13 +16,18 @@ public class GameController : MonoBehaviour {
     public float spawnWait; // How long between each hazard in each wave?
     public float waveWait; // How long between each wave of enemies?
 
+    [Header("Text Options")]
     public Text scoreText;
     public Text restartText;
     public Text gameOverText;
 
+    [Header("Game Audio Source")]
+    public AudioClip victorySFX;
+
     private bool gameOver;
     private bool restart;
     private int score;
+    private AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +40,8 @@ public class GameController : MonoBehaviour {
         UpdateScore();
 
         StartCoroutine(SpawnWaves());
+
+        audioSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -90,6 +99,12 @@ public class GameController : MonoBehaviour {
         score += newScoreValue;
         // score = score + newScoreValue;
         // Debug.Log("Score is " + score);
+
+        if (score % 200 == 0)
+        {
+            audioSource.clip = victorySFX;
+            audioSource.Play();
+        }
 
         UpdateScore();
     }
